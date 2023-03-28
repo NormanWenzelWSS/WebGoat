@@ -17,5 +17,10 @@
     "workflowRules": {
       "enabled": true
     }
+  },
+  "scanSettingsSAST": {
+    "enableScan": false,
+    "scanPullRequests": false,
+    "enableRemediation": true
   }
 }
