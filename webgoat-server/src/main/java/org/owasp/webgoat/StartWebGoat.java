@@ -57,6 +57,7 @@ public class StartWebGoat extends SpringBootServletInitializer {
         int goatPort = webgoatPort == null ? 8080 : Integer.parseInt(webgoatPort);
         int dbPort = databasePort == null ? 9001 : Integer.parseInt(databasePort);
 
+        
         if (isAlreadyRunning(webGoatHost, goatPort)) {
             log.error("Port {}:{} is already in use", webGoatHost, goatPort);
             System.out.println("Port " + webGoatHost + ":" + goatPort + " is in use. Use environment value WEBGOAT_PORT to set a different value.");
