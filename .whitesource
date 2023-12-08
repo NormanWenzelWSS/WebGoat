@@ -4,6 +4,7 @@
     "configExternalURL": "",
     "projectToken": "",
     "baseBranches": [],
+    "enableLicenseViolations": true,
     "enableSAST": true
   },
   "checkRunSettings": {
